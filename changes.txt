@@ -1,0 +1,23 @@
+Major Features:
+  - 模组更名为“地图设置调整器”（内部名称 MapSettingsTuner）。
+    Renamed the mod to "Map Settings Tuner" (internal name MapSettingsTuner).
+  - 适配 Factorio 2.1，新增简体中文本地化，英文仍然可用。
+    Updated to Factorio 2.1 and added Simplified Chinese localization; English is still supported.
+  - 地图生成设置根据当前地表实际存在的自动放置控件生成，并保持实体与地块的自动放置设置同步。
+    Map generation settings are now built from the autoplace controls that exist on the current surface, and per entity and tile autoplace settings stay in sync.
+  - 水域设置改用 2.1 的水域自动放置控件，移除已过时的气候设置与旧字段。
+    Water settings now use the 2.1 water autoplace control; obsolete climate settings and old fields were removed.
+  - 进化因子按地表分别应用，界面样式适配 2.1。
+    Evolution factor is applied per surface, and GUI styles were updated for 2.1.
+
+Bugfixes:
+  - 修复“虫族扩张”中最小/最大队伍规模显示“Unknown key”的问题（2.1 已移除原版对应的本地化键）。
+    Fixed "Unknown key" for the minimum/maximum expansion group size labels (2.1 removed the vanilla locale keys).
+  - 修复太空时代星球（例如祝融星）的资源列表重复显示同一资源的问题，例如出现两个“煤矿”。
+    Fixed duplicated resource rows on Space Age planets (for example Vulcanus showing two Coal entries).
+
+Credits:
+  - 原模组“Change Map Settings”由 Bilka 创作并开发（最后的上游版本为 5.0.1，MIT 许可）。
+    Original mod "Change Map Settings" created and developed by Bilka (last upstream version 5.0.1, MIT license).
+  - 2.1 适配由 Gpx 维护。
+    2.1 adaptation maintained by Gpx.
