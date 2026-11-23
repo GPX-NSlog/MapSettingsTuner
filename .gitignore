@@ -1,2 +1,16 @@
-dist/
+# Build output
+/dist/
 *.zip
+
+# Editor and local tooling
+.vscode/
+.idea/
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Local secrets
+.env
+*.local
+*.local.ps1
